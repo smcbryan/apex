@@ -5,6 +5,6 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
   
          def test_that
-           p 'HIIIIIIIIIII'
-         end
+           p 'HIIIIIIIIIII'       
+         end 
 end

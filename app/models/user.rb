@@ -3,8 +3,9 @@ class User < ActiveRecord::Base
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
-  
+         CONST = 'hi   ' 
+         CONST2='s '
          def test_that
-           p 'HIIIIIIIIIII'
-         end
+           p 'HIIIIIIIIIII'       
+         end 
 end
